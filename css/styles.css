@@ -52,20 +52,20 @@ strong{
 }
 .container-fluid{
     background-color: #f6f6f6;
-  }
+}
   
-  .about{
-  font-family: "Akronim";
+.about{
+  font-family: sans-serif;
   margin-top: 30px;
-  }
+}
   
-  #us{
-    font-family: "Merienda";
+#us{
+    font-family:Arial, Helvetica, sans-serif ;
     font-size: 110%;
-  }
+}
   
 #image{
     margin-top: 15px;
-  }
+}
 
 
