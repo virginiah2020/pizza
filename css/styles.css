@@ -66,6 +66,29 @@ strong{
   
 #image{
     margin-top: 15px;
+}h2{
+    font-family: "Merienda";
+  }
+  
+.container{
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
 }
+.title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.container img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+  
+
 
 
