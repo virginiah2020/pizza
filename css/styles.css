@@ -50,5 +50,22 @@ strong{
     margin: 60px 15px 0 15px;
     font-size: 60px;
 }
+.container-fluid{
+    background-color: #f6f6f6;
+  }
+  
+  .about{
+  font-family: "Akronim";
+  margin-top: 30px;
+  }
+  
+  #us{
+    font-family: "Merienda";
+    font-size: 110%;
+  }
+  
+#image{
+    margin-top: 15px;
+  }
 
 
