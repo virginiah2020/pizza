@@ -18,7 +18,7 @@
           <nav>
             <ul>
               <li><a href="#Aboutus">About us</a></li>
-              <li><a href="#photo">Photos</a></li>
+              <li><a href="#photos">Photos</a></li>
               <li><a href="#orders">Orders</a></li>
               <li><a href="#contacts">Contacts</a></li>
             </ul>
@@ -54,18 +54,77 @@
       <div class="col-lg-4 col-md-4 col-sm-12">
         <h2 class="title">Chicken Tikka</h2>
         <img src="./images/chicken-tikka.jpg" class="img-fluid">
-        <p></p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
         <h2 class="title">Pepperoni Pizza</h2>
         <img src="./images/Pepperoni.jpg" class="img-fluid">
-        <p></p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">  
         <h2 class="title">Magherita Pizza</h2>
-        <img src="./images/Margherita-Pizza.jpg" class="img-fluid">
-        <p></p>      
+        <img src="./images/Margherita-Pizza.jpg" class="img-fluid">    
       </div>
+    </div>
+    <div id="orders">
+      <div class="form-group">
+        <div id="size">
+            <label for="pizzaSize">Size</label>
+            <select class="search" id="pizzaSize">
+                <option label="Large - ksh 2000" value="2000"></option>
+                <option label="Medium -ksh 1500" value="1500"></option>
+                <option label="Small -ksh 1000" value="1000"></option>
+            </select>
+        </div>
+    </div>
+  </div>
+    <!-- form for pizzacrust -->
+    <div class="form-group">
+        <div id="crust">
+            <label for="pizzaCrust">Crust</label>
+            <select class="search" id="pizzaCrust">
+                <option label="Thin crust -ksh 700" value="700"></option>
+                <option label="Thick crust -ksh 600" value="600"></option>
+                <option label="Deep crust -ksh 500" value="500"></option>
+                <option label="Cheese -ksh 450" value="450"></option>
+                <option label="Stuffed crust -ksh 400" value="400"></option>
+            </select>
+        </div>
+    </div>
+    <div class=" form-group">
+      <div id="toppings">
+          <label for="pizzaTopping">Meat</label>
+          <select class="search" id="pizzaTopping">
+              <option label="Sausages -ksh.100" value="100"></option>
+              <option label="Bacon -ksh.120" value="120"></option>
+              <option label="Chicken -ksh.100" value="100"></option>
+              <option label="Beef -ksh.120" value="120"></option>
+          </select>
+      </div>
+  </div>
+  <div class="form-group">
+    <div id="pizzas">
+      <label for="pizzas">Pizza</label>
+      <select class="search" id="pizzas">
+        <option label="Sausages -ksh.100" value="100"></option>
+        <option label="Bacon -ksh.120" value="120"></option>
+        <option label="Chicken -ksh.100" value="100"></option>
+      </select>
+    </div>
+  </div>
+  
+   <div class="form-group">
+    <div id="number">
+        <label for="quantity">Quantity</label>
+        <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
+            max="" min="0">
+    </div>
+</div>
+</div>
+</div>
+<br>
+<button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+    onclick="totalAmount();"><strong>Confirm order</strong>
+
+  
     <script src="./js/scripts.js"></script>
     <script src="./js/jquery-3.5.1.js"></script>
 </body>
