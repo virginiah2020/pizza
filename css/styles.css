@@ -46,6 +46,7 @@ li a:hover{
     margin: 100px;
     padding: 100px;
     background-image: url('../images/pizzahome.jpg');
+    background-size: cover;
 }
 strong{
     color: black;
@@ -110,7 +111,7 @@ strong{
     border-radius: 12px;
     margin-bottom: 7%;
 }
-.fluid{
+#orders{
     background-image: url('../images/chicken-tikka.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,6 +134,12 @@ justify-content: center;
 }
 #contactdetails h2 p {
     color: black;
+}
+.img-fluid{
+    margin-top: 10px;
+    height: 80%;
+    width:400%;
+    margin-bottom: 15px;
 }
 
 
