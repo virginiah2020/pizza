@@ -105,7 +105,13 @@ strong{
     border-radius: 12px;
     margin-bottom: 7%;
 }
-
+.fluid{
+    background-image: url('../images/chicken-tikka.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
 .form-group{
 font-size: 20px;
 display: flex;
