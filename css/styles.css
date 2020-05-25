@@ -125,6 +125,15 @@ padding-left: 15px;
 padding-right: 15px;
 justify-content: center;
 }
+.col-md-4{
+    padding-left: 20%;
+}
+#contacts{
+    background-color: #f6f6f6;
+}
+#contactdetails h2 p {
+    color: black;
+}
 
 
 
