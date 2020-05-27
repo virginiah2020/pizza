@@ -34,12 +34,14 @@ function totalAmount() {
     "" +
     " Thanks for your order."
   )};
-  //variable customer location
-  var location = prompt("If you want your pizza to be delivered to you please enter your location and if not cancel.");
-  if (location !== "") {
-    alert("You order will be delivered shortly.Delivery fee is 200/= and incase you didn,t want it delivered please come for your order.");
+  function getLocation() {
+    var location =document.getElementById("pizza-form");
+    return parseInt(location)
   }
+ 
 
 
+
+ 
 
 
